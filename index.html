@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compation" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+    <div class="container">
+        <h1 class="main-title">English Dictionary</h1>
+        <input type="text" class="search-word" id="search-word" placeholder="Search a Word">
+        <p class="info" id="info">Type a word and press Enter key.</p>
+        <div class="meaning-box hide-it" id="meaning-box">
+            <table>
+                <tr>
+                    <td style="text-align: right">Word:</td>
+                    <td><samp class="word" id="word">Sorry,this one not there</samp></td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top">Meaning:</td>
+                    <td><samp class="meaning" id="meaning">Sorry, we could not find the meaning</samp></td>
+                </tr>
+            </table>
+            <audio controls class="audio" id="audio"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+   
+   </body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: rgb(46, 234, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    min-width: 460px;
+    max-width: 590px;
+    background-color: rgb(71, 241, 71);
+    padding: 40px 80px;
+    border: 20px;
+    box-shadow: 0 0 10px rgba(243, 143, 3, 0.1);
+    text-align: center;
+}
+.main-title{
+    text-transform: uppercase;
+    margin-top: 0%;
+}
+.search-word{
+    padding: 16px;
+    font-size: 16px;
+    width: 140px;
+    margin-top: 10px;
+}
+.info{
+    color: rgb(25, 0, 255);
+    padding: 6px;
+}
+.meaning-box{
+    margin-top: 16px;
+}
+.meaning-box table td{
+    padding: 10px 2px;
+    font-size: 26px;
+    font-weight:600;
+    color: rgb(247, 121, 32);
+    text-align: left;
+}
+.word{
+    color: rgb(198, 5, 111);
+    font-size: 20px;
+}
+.meaning{
+    color: rgb(44, 3, 158);
+}
+.audio{
+     margin-top: 16px;
+     color: aqua;
+}
+.hide-it{
+    display: none;
+}
